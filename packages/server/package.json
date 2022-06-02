@@ -3,7 +3,7 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "@npm-workspace-docker-bug/dependency": "*"
+    "@npm-workspace-docker-bug/greeting": "*"
   },
   "scripts": {
     "start": "node index.js"
