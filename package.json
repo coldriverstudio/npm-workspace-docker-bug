@@ -1,0 +1,8 @@
+{
+  "name": "@npm-workspace-docker-bug/container",
+  "private": true,
+  "workspaces": [
+    "packages/greeting",
+    "packages/server"
+  ]
+}

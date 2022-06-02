@@ -1,0 +1,5 @@
+{
+  "name": "@npm-workspace-docker-bug/greeting",
+  "private": true,
+  "main": "index.js"
+}

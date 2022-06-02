@@ -1,0 +1,8 @@
+{
+  "name": "@npm-workspace-docker-bug/server",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@npm-workspace-docker-bug/dependency": "*"
+  }
+}
