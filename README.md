@@ -1,3 +1,5 @@
+> This branch contains a fixed package-lock.json, which is the cause of the error in the main branch. Note that even though the `dependency` package doesn't exist anymore (it was renamed to `greeting`), `npm install` is not able to tell that there is a problem, until we try to run it with `--workspace`. This seems like a bug, but one where `npm` should fail more often, not less, and give an appropriate error.
+
 Minimal reproduction for https://github.com/npm/cli/issues/3847 without any
 `npm link` or `file:` references, just a plain NPM workspace referring to other
 packages by package name:
