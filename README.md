@@ -17,15 +17,15 @@ Now using node v17.9.1 (npm v8.11.0)
 $ nvm use 16
 Now using node v16.14.2 (npm v8.5.0)
 
-$ npm install --workspace packages/server
+$ rm -rf node_modules && npm install --workspace packages/server
 npm ERR! Cannot set properties of null (setting 'dev')
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/.../.npm/_logs/...-debug.log
 
-$ npm install
+$ rm -rf node_modules && npm install
 
-added 1 package, changed 1 package, and audited 8 packages in 150ms
+added 3 packages, and audited 8 packages in 130ms
 
 found 0 vulnerabilities
 ```
